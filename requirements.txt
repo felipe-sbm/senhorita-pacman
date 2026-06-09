@@ -1,0 +1,105 @@
+# ==================================================
+#      Ms. Pac-Man com Aprendizado por Reforço
+#    Framework principal: TensorFlow + Gymnasium
+# ==================================================
+
+# --------------------------------------------------
+# Deep Learning
+# --------------------------------------------------
+
+# Framework principal de IA
+tensorflow>=2.19.0
+
+# API de redes neurais utilizada pelo TensorFlow
+keras>=3.10.0
+
+# --------------------------------------------------
+# Ambiente de Aprendizado por Reforço
+# --------------------------------------------------
+
+# Interface de ambientes RL
+gymnasium>=1.2.0
+
+# Ambientes Atari (Ms. Pac-Man)
+ale-py>=0.11.0
+
+# --------------------------------------------------
+# Manipulação de Dados
+# --------------------------------------------------
+
+# Operações matemáticas e tensores
+numpy>=2.3.0
+
+# Tabelas, métricas e análise de resultados
+pandas>=2.3.0
+
+# --------------------------------------------------
+# Processamento de Imagens
+# --------------------------------------------------
+
+# Redimensionamento e pré-processamento dos frames
+opencv-python>=4.12.0
+
+# Utilidades para processamento de imagens
+scikit-image>=0.25.0
+
+# Leitura e escrita de imagens
+pillow>=11.3.0
+
+# --------------------------------------------------
+# Visualização
+# --------------------------------------------------
+
+# Geração de gráficos e métricas
+matplotlib>=3.10.0
+
+# Barras de progresso durante o treinamento
+tqdm>=4.67.0
+
+# --------------------------------------------------
+# Jupyter Notebook
+# --------------------------------------------------
+
+# Ambiente principal de desenvolvimento
+jupyter>=1.1.0
+
+# Interface moderna dos notebooks
+notebook>=7.4.0
+
+# Kernel Python para notebooks
+ipykernel>=6.30.0
+
+# --------------------------------------------------
+# Monitoramento do Treinamento
+# --------------------------------------------------
+
+# Visualização de métricas do TensorFlow
+tensorboard>=2.19.0
+
+# --------------------------------------------------
+# Exportação de Vídeos
+# --------------------------------------------------
+
+# Criação de vídeos das partidas
+moviepy>=2.2.0
+
+# Manipulação de imagens e GIFs
+imageio>=2.37.0
+
+# Backend FFmpeg para vídeos
+imageio-ffmpeg>=0.6.0
+
+# ==================================================
+# Dependências específicas por hardware
+# NÃO instalar automaticamente pelo requirements
+# ==================================================
+
+# NVIDIA:
+# Ver documentação oficial do TensorFlow para CUDA
+
+# Apple Silicon (M1, M2, M3, M4):
+# pip install tensorflow-metal
+
+# CPUs:
+# Nenhuma dependência adicional necessária
+# ==================================================

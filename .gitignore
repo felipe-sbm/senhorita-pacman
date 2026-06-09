@@ -1,0 +1,14 @@
+# Ambiente virtual Python
+venv/
+.env
+*.pyc
+__pycache__/
+
+# Logs e cache
+*.log
+*.tmp
+*.cache/
+
+# Configurações do sistema
+.DS_Store
+Thumbs.db

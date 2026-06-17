@@ -53,9 +53,56 @@
 * Ambiente inicial funcionando corretamente.
 * Resultado pouco satisfatório tendo em vista a pouca quantidade de episódios.
 
+---
+
+## 15/06/2026
+
+### Atividades Realizadas
+
+* Avaliação do modelo já em andamento.
+
+### Decisões Tomadas
+
+Modelo sendo testado pelo colab, com salvamento a cada 10 episódios.
+
+### Problemas Encontrados
+
+* Modelo sendo utilizado no Colab e tendo interrupções pela plataforma, o que compromente o treinamento;
+* Teste do modelo de forma local, porém o tempo para treinar seria inviável, pois é mais lento.
+
+### Resultados Obtidos
+
+* Ambiente inicial funcionando corretamente.
+* Treinamento de 130/500 episódios.
+
 ### Próximos Passos
 
-* Implementação de salvamento automático a cada x quantidade episódios treinados.
+* Continuação do treinamento.
+
+ ---
+
+## 16/06/2026
+
+### Atividades Realizadas
+
+* Avaliação do modelo já em andamento.
+
+### Decisões Tomadas
+
+Modelo sendo testado pelo colab, com salvamento a cada 10 episódios.
+
+### Problemas Encontrados
+
+* Recompensas variadas a cada episódio, ficando pouco clara a evoluação do modelo com base na plotagem do gráfico com base nas recompensas.
+
+### Resultados Obtidos
+
+* Ambiente inicial funcionando corretamente.
+* Treinamento de 260/500 episódios.
+
+### Próximos Passos
+
+* Continuação do treinamento.
 
 
 

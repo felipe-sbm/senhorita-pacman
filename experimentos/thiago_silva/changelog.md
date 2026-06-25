@@ -104,5 +104,32 @@ Modelo sendo testado pelo colab, com salvamento a cada 10 episódios.
 
 * Continuação do treinamento.
 
+*  ---
+
+## 22/06/2026
+
+### Atividades Realizadas
+
+* Avaliação do modelo já em andamento.
+
+### Decisões Tomadas
+
+Modelo sendo testado pelo colab, com salvamento a cada 10 episódios.
+
+### Problemas Encontrados
+
+* Recompensas variadas a cada episódio, ficando pouco clara a evolução do modelo com base na plotagem do gráfico com base nas recompensas.
+
+### Resultados Obtidos
+
+* Ambiente inicial funcionando corretamente.
+* Treinamento de 400/500 episódios.
+* Ao realizar o teste do modelo com essa quantidade de episódios treinados, o modelo simplesmente decorou o caminho e não conseguia variar. Optamos por não mais treinar esse modelo.
+
+### Próximos Passos
+
+* Treinamento de um novo modelo que apresentou melhor resultado.
+* Implementação de um Double DQN.
+
 
 

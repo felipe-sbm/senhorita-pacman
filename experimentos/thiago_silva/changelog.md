@@ -131,5 +131,35 @@ Modelo sendo testado pelo colab, com salvamento a cada 10 episódios.
 * Treinamento de um novo modelo que apresentou melhor resultado.
 * Implementação de um Double DQN.
 
+* *  ---
+
+## 30/06/2026
+
+### Atividades Realizadas
+
+* Avaliação do modelo já em andamento.
+
+### Decisões Tomadas
+
+Modelo sendo testado pelo colab, com salvamento a cada 10 episódios.
+
+### Problemas Encontrados
+
+* Tempo de execução ainda é demorado devido a limitação do colab.
+
+### Resultados Obtidos
+
+* Ambiente inicial funcionando corretamente.
+* Treinamento de 4500 episódios
+* Modelo aprendeu mais variações de caminhos a serguir, inclusive com pontuações acima dos 1000 nos testes.
+* Não ficava travado em alguma parede devido a regra de penalidade se ficar parado por 40 passos.
+* Quando havia menos bolinhas no cenário, o modelo buscava outras rotas visando fazer mais pontos.
+* Não tinha o senso de fugir dos fantasmas ainda
+
+### Próximos Passos
+
+* Mais tempo de treinamento.
+
+
 
 

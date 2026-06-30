@@ -141,6 +141,17 @@ Modelo sendo testado pelo colab, com salvamento a cada 10 episódios.
 
 ### Decisões Tomadas
 
+EPISODE_START = 3000
+EPISODES = 5000
+BATCH_SIZE = 128
+MEMORY_SIZE = 20000  # ajustado para uso do colab gratuito
+GAMMA = 0.99
+LEARNING_RATE = 0.0001
+
+EPSILON = 0.15
+EPSILON_MIN = 0.1 #Chegou no mínimo por volta do 4700
+EPSILON_DECAY = 0.999
+
 Modelo sendo testado pelo colab, com salvamento a cada 10 episódios.
 
 ### Problemas Encontrados
